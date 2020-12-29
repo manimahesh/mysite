@@ -1,5 +1,5 @@
-import React, { component } from 'react';
-import { render } from 'react-dom';
+import React, { Component } from "react";
+import { render } from "react-dom";
 
 export default class App extends Component {
     constructor(props){
@@ -7,9 +7,8 @@ export default class App extends Component {
     }
 
     render() {
-        return <h1>Reached Home Page</h1>;
+        return <h1>Reached Home Page!!</h1>;
     }
 }
 
-const appDiv = document.getElementById('app');
-render(<App />, appDiv);
+render(<App />, document.getElementById("app"));
